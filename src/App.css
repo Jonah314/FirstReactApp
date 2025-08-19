@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-box-style{
+    @apply bg-blue-500 text-white box-border h-32 border-4
+}
