@@ -2,8 +2,8 @@ import React from 'react';
 
 function ProductNavBar(){
     return(
-        <div>
-            <h1>Themes</h1>
+        <div className='bg-purple-400 min-h-80'>
+            <h1>Product Nav Bar</h1>
                 <ul>
                     <li>some item</li>
                     <li>some item</li>
@@ -13,3 +13,5 @@ function ProductNavBar(){
         </div>
     )
 }
+
+export default ProductNavBar;
