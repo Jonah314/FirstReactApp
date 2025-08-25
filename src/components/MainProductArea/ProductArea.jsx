@@ -13,7 +13,8 @@ function ProductArea(){
     
     return (
         <div className ='bg-green-500 '>
-            <h1>Box</h1>
+            
+            <h1 className='productBox'>Box</h1>
             <h1>Box</h1>
         </div>
     )
