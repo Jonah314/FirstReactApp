@@ -3,5 +3,6 @@
     @tailwind utilities;
 
 .productBox {
-    @apply text-white
+    @apply text-black bg-white h-96 min-w-40
+    max-w-64 shadow-2xl rounded-2xl lg:text-red-500 md:text-yellow-500 sm:text-blue-500 2xl:text-purple-500
 }

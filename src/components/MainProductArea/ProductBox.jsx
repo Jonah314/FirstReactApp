@@ -3,7 +3,8 @@ import './ProductAreaCss.css';
 
 function ProductBox(){
     return (
-        <div className = 'ProductBox'>
+        <div className = 'productBox '>
+            <h1 className = ''>Box</h1>
 
         </div>
     )
