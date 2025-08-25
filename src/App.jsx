@@ -15,7 +15,7 @@ function App() {
  <> 
   <NavBar />
     <Banner />
-    
+    <ContentArea />
     <Footer />
 
  </>
