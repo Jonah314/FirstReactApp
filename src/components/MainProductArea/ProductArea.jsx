@@ -1,4 +1,5 @@
 import React from 'react'
+import './ProductAreaCss.css'
 
 function ProductArea(){
     
@@ -12,8 +13,8 @@ function ProductArea(){
     
     return (
         <div className ='bg-green-500 '>
-            <h1>Product Area</h1>
-            
+            <h1>Box</h1>
+            <h1>Box</h1>
         </div>
     )
 }
