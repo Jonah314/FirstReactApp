@@ -6,13 +6,13 @@ import image from '../../Images/PunkRockUnicorn.png';
 import { ProductArray } from '../../productArray.js';
 
 function ProductBox(){
-    //const PunkRockUnicorn = '.././Images/PunkRockUnicorn.png';
+    
     
     
     const products =[];
     for(const prod in ProductArray){
         const product =(
-            <div className = 'productBox '>
+            <div className = 'productBox  '>
             <div className = 'rounded-lg overflow-hidden aspect-square'>
                 <img src = {ProductArray[prod].Link} />
             </div>
@@ -29,10 +29,10 @@ function ProductBox(){
         products.push(product);
     }
         
-    
+    //lg:grid-cols-4 gap-3 p-2 md:grid-cols-3 sm:grid-cols-2
     
     return (
-        <div>
+        <div className='grid m-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-2'>
             {products}
         </div>
     )
@@ -41,18 +41,3 @@ function ProductBox(){
 export default ProductBox;
 
 
-/*
-<div className = 'productBox '>
-            <div className = 'rounded-lg overflow-hidden aspect-square'>
-                <img src = {image} />
-            </div>
-            <h1 className = 'text-center'>Box</h1>
-            <h2 className = 'bg-blue-500 mx-2'>DropDown Menu</h2>
-            <div className= 'grid grid-rows-2'>
-                <div><h1>Price</h1></div>
-                <div><h1>SC ICON</h1></div>
-            </div>
-
-
-        </div>
-*/

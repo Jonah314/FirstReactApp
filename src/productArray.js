@@ -16,5 +16,35 @@ export const ProductArray = {
         price: 3.44,
         description: '3x5',
         Link: TiredGorillaImg
+    },
+       PunkRockUnicrn: {
+        image: 'imageAddress',
+        title: 'PunkRockUnicorn',
+        price: 4.33,
+        description: '3x2',
+        Link: PunkRockUnicornImg
+
+    },
+    TiredGorill: {
+        image: 'imageAddress',
+        title: 'TiredGorilla',
+        price: 3.44,
+        description: '3x5',
+        Link: TiredGorillaImg
+    },
+       PunRockUnicorn: {
+        image: 'imageAddress',
+        title: 'PunkRockUnicorn',
+        price: 4.33,
+        description: '3x2',
+        Link: PunkRockUnicornImg
+
+    },
+    TiredGrilla: {
+        image: 'imageAddress',
+        title: 'TiredGorilla',
+        price: 3.44,
+        description: '3x5',
+        Link: TiredGorillaImg
     }
 };
