@@ -1,11 +1,14 @@
 import React from 'react';
 import './ProductAreaCss.css';
+
+
 /*import image from '../../Images/PunkRockUnicorn.png'; */
-import { productArray } from '../../productArray.js';
+import { ProductArray } from '../../productArray.js';
 
 function ProductBox(){
     //const PunkRockUnicorn = '.././Images/PunkRockUnicorn.png';
     
+    /*
     const products =[];
     for(const prod in productArray){
         const product =(
@@ -25,11 +28,12 @@ function ProductBox(){
         );
         products.push(product);
     }
+        */
     
     
     return (
         <div>
-            
+            <h1>Some text</h1>
         </div>
     )
 }
