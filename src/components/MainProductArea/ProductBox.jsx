@@ -14,7 +14,7 @@ function ProductBox(){
         const product =(
             <div className = 'productBox '>
             <div className = 'rounded-lg overflow-hidden aspect-square'>
-                <img src = {image} />
+                <img src = {ProductArray[prod].Link} />
             </div>
             <h1 className = 'text-center'>Box</h1>
             <h2 className = 'bg-blue-500 mx-2'>DropDown Menu</h2>
