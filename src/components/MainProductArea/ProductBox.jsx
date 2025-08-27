@@ -24,7 +24,7 @@ function ProductBox(){
                 
                 <div className= 'grid grid-cols-2 mx-4 text-base my-2'>
                     <div className='place-content-start items-center flex '><h1>${ProductArray[prod].price}</h1></div>
-                    <div className= 'place-content-evenly rounded-lg items-center flex bg-gray-100'><ShoppingCart color='black' className='size-6'  /></div>
+                    <div className= 'place-content-evenly rounded-lg items-center flex bg-gray-100 border-2 border-white hover:border-black'><ShoppingCart color='black' className='size-6'  /></div>
                 </div>
                 
 
