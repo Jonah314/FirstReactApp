@@ -12,20 +12,21 @@ function ProductBox(){
     const products =[];
     for(const prod in ProductArray){
         const product =(
-            <div className = 'productBox  '>
+            <div className = 'productBox grid grid-rows-auto '>
             
-            <div className = 'rounded-lg overflow-hidden aspect-square'>
-                <img src = {ProductArray[prod].Link} />
-            </div>
-            
-            <h1 className = 'text-center'>{ProductArray[prod].title}</h1>
-            
-            <h2 className = 'bg-blue-500 mx-2'>DropDown Menu</h2>
-            
-            <div className= 'grid grid-cols-2 ml-2'>
-                <div><h1>{ProductArray[prod].price}</h1></div>
-                <div><ShoppingCart color='black' /></div>
-            </div>
+                <div className = 'rounded-lg overflow-hidden aspect-square bg-gray-100 hover:scale-[1.1]'>
+                    <img src = {ProductArray[prod].Link} />
+                </div>
+                
+                <h1 className = 'text-center text-sm mt-2'>{ProductArray[prod].title}</h1>
+                
+                <h2 className = 'bg-blue-500 mx-2 md-3 text-sm'>DropDown Menu </h2>
+                
+                <div className= 'grid grid-cols-2 mx-4 text-base my-2'>
+                    <div className='place-content-start items-center flex '><h1>${ProductArray[prod].price}</h1></div>
+                    <div className= 'place-content-evenly rounded-lg items-center flex bg-gray-100'><ShoppingCart color='black' className='size-6'  /></div>
+                </div>
+                
 
 
         </div>
