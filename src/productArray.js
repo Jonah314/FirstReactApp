@@ -1,50 +1,62 @@
 import PunkRockUnicornImg from './Images/PunkRockUnicorn.png'; 
 import TiredGorillaImg from './Images/Tired Gorilla.png';
+import DrummerBabyImg from './Images/drummer baby.png';
+import PizzaAngelImg from './Images/pizza angel.png';
+import StingRayAlienImg from './Images/StingRay Alien.png';
+import PizzaCannibalImg from './Images/Pizza Cannibal.png';
 
 export const ProductArray = {
     PunkRockUnicorn: {
         image: 'imageAddress',
-        title: 'PunkRockUnicorn',
+        title: 'Punk Rock Unicorn',
         price: 4.33,
         description: '3x2',
-        Link: PunkRockUnicornImg
+        Link: PunkRockUnicornImg,
+        Tags:['unicorn','punk','horse']
 
     },
     TiredGorilla: {
         image: 'imageAddress',
-        title: 'TiredGorilla',
+        title: 'Tired Gorilla',
         price: 3.44,
         description: '3x5',
-        Link: TiredGorillaImg
+        Link: TiredGorillaImg,
+        Tags: ['coffee','tired', 'gorilla','animal']
     },
-       PunkRockUnicrn: {
+
+    DrummerBaby: {
         image: 'imageAddress',
-        title: 'PunkRockUnicorn',
+        title: 'Drummer Baby',
         price: 4.33,
         description: '3x2',
-        Link: PunkRockUnicornImg
+        Link: DrummerBabyImg,
+        Tags: ['punk', 'baby', 'cute']   
 
     },
-    TiredGorill: {
+    PizzaAngel: {
         image: 'imageAddress',
-        title: 'TiredGorilla',
+        title: 'Pizza Angel',
         price: 3.44,
         description: '3x5',
-        Link: TiredGorillaImg
+        Link: PizzaAngelImg,
+        Tags: ['food', 'pizza','angel']
     },
-       PunRockUnicorn: {
+    StingRayAlien: {
         image: 'imageAddress',
-        title: 'PunkRockUnicorn',
+        title: 'StingRay Alien',
         price: 4.33,
         description: '3x2',
-        Link: PunkRockUnicornImg
+        Link: StingRayAlienImg,
+        Tags: ['alien','space','animal']   
 
     },
-    TiredGrilla: {
+    PizzaCannibal: {
         image: 'imageAddress',
-        title: 'TiredGorilla',
+        title: 'Pizza Cannibal',
         price: 3.44,
         description: '3x5',
-        Link: TiredGorillaImg
+        Link: PizzaCannibalImg,
+        Tags: ['food','pizza','canibal', 'evil']
+
     }
 };
