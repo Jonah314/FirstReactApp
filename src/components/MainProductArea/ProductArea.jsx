@@ -13,7 +13,7 @@ function ProductArea(){
     
     
     return (
-        <div className ='bg-white '>
+        <div className ='bg-white m-2  '>
             <ProductBox />
            
 
