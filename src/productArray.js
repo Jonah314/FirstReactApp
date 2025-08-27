@@ -12,7 +12,7 @@ export const ProductArray = {
         price: 4.33,
         description: '3x2',
         Link: PunkRockUnicornImg,
-        Tags:['unicorn','punk','horse']
+        Tags:['unicorn','punk','horse','animal']
 
     },
     TiredGorilla: {
