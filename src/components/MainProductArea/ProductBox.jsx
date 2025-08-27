@@ -14,7 +14,7 @@ function ProductBox(){
         const product =(
             <div className = 'productBox grid grid-rows-auto '>
             
-                <div className = 'rounded-lg overflow-hidden aspect-square bg-gray-100 hover:scale-[1.1]'>
+                <div className = 'rounded-lg overflow-hidden aspect-square bg-gray-100 hover:scale-[1.1] flex items-center'>
                     <img src = {ProductArray[prod].Link} />
                 </div>
                 
