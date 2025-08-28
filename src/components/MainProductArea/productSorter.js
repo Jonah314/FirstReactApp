@@ -1,4 +1,4 @@
-import ProductArray from './productArray.js'
+import ProductArray from '../../productArray.js'
 
 
 
@@ -7,7 +7,7 @@ export function productSorter(tag){
 
     for(const prod in ProductArray){
         if (ProductArray[prod].Tags.includes(tag)){
-            newArray.push(product);
+            newArray.push(prod);
         }
     }
     return newArray;

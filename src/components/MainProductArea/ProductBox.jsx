@@ -10,7 +10,7 @@ function ProductBox(){
     
     
     
-    const productDisplay = displayProducts();
+    const productDisplay = displayProducts('food');
     
     return (
         <div className='grid m-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-4'>

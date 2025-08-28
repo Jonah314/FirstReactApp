@@ -2,13 +2,41 @@ import React from 'react';
 import {ProductArray} from '../../productArray.js';
 import { ShoppingCart } from 'react-flaticons';
 import './ProductAreaCss.css';
+//import { productSorter } from './productSorter.js';
 
 
-export function displayProducts(arr){
-        const newProductArr = arr || ProductArray;
+export function displayProducts(tag){
+    
+    
+
+    
+    
+    /*
+    function productSorter(tag){
+        const newArray = [];
+    
+        for(const prod in ProductArray){
+            if (ProductArray[prod].Tags.includes(tag)){
+                newArray.push(prod);
+            }
+        }
+        return newArray;
+    }
+        */
+    
+    /*
+    const newProductArr = [];
+    if (tag === undefined){
+        newProductArr = ProductArray;
+    }else {
+        newProductArr = productSorter(tag);
+    }
+    */ 
+        const newProductArr = ProductArray;
         
         const products =[];
         for(const prod in newProductArr){
+            if(ProductArray[prod].Tags.includes(tag)){
             const product =(
                 <div className = 'productBox grid grid-rows-auto '>
                 
@@ -30,7 +58,7 @@ export function displayProducts(arr){
             </div>
             );
             products.push(product);
-            
+            }
         } return products;
     
     }    
