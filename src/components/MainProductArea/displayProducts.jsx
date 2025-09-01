@@ -2,40 +2,13 @@ import React from 'react';
 import {ProductArray} from '../../productArray.js';
 import { ShoppingCart } from 'react-flaticons';
 import './ProductAreaCss.css';
-//import { productSorter } from './productSorter.js';
 
 
 export function displayProducts(tag){
     
-    
-
-    
-    
-    /*
-    function productSorter(tag){
-        const newArray = [];
-    
-        for(const prod in ProductArray){
-            if (ProductArray[prod].Tags.includes(tag)){
-                newArray.push(prod);
-            }
-        }
-        return newArray;
-    }
-        */
-    
-    /*
-    const newProductArr = [];
-    if (tag === undefined){
-        newProductArr = ProductArray;
-    }else {
-        newProductArr = productSorter(tag);
-    }
-    */ 
-
     const newProductArr = ProductArray;
 
-        if (tag==false){
+        if (tag==false|| tag== 'ResetTag'){
             const products =[];
             for(const prod in newProductArr){
             const product =(
