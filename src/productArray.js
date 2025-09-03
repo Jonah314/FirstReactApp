@@ -107,7 +107,7 @@ export const ProductArray = {
         price: 3.22,
         description: '2x3',
         Link: AstrounautImg,
-        Tags:['astronaut', 'animal', 'space']
+        Tags:['astronaut', 'space']
     }
 
 };

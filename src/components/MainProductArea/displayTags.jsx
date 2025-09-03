@@ -15,10 +15,12 @@ for (const prod in ProductArray) {
 }
 
  const tagArr = Array.from(tagMap, ([name, count]) => ({ name, count }));
-const popularTags = tagArr.filter(t => t.count>1);
+//filter Tag Labels so the highest Tag account gets rendered
+ const popularTags = tagArr.filter(t => t.count>1);
+//Organize Tag Labels aplabeticaly
+const organizedTags = popularTags.sort((a,b)=> a.name.localeCompare(b.name));
 
-
-  return popularTags.map((tag) => (
+  return organizedTags.map((tag) => (
     <li key={tag.name}>
       <button onClick={() => onSendTag(tag.name)}>
         {tag.name}
