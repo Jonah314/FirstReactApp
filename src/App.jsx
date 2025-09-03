@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage.jsx';
 import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';;
 import AboutMePage from './Pages/AboutMePage..jsx';
 import ShoppingCart from './Pages/ShoppingCart.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
       <Route path = "/Pages/AboutMePage" element = {<AboutMePage/>}/>
       <Route path = "/Pages/ShopingCart" element = {<ShoppingCart/>}/>
     </Routes>
- 
+
+
+    <Footer/>
  </BrowserRouter>
  );
 }
